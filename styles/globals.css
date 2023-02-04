@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply transition-all duration-500 text-dark dark:bg-dark dark:text-light bg-light;
+  }
+
+  /** Poppins **/
+
+  @font-face {
+    font-family: Poppins;
+    font-weight: 300;
+    src: url('~/components/assets/fonts/Poppins-Light.ttf');
+  }
+
+  @font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    src: url('~/components/assets/fonts/Poppins-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: Poppins;
+    font-weight: 500;
+    src: url('~/components/assets/fonts/Poppins-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: Poppins;
+    font-weight: 600;
+    src: url('~/components/assets/fonts/Poppins-SemiBold.ttf');
+  }
+
+  /** Merriweather **/
+
+  @font-face {
+    font-family: Merriweather;
+    font-weight: 300;
+    src: url('~/components/assets/fonts/Merriweather-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: Merriweather;
+    font-weight: 400;
+    src: url('~/components/assets/fonts/Merriweather-Light.ttf');
+  }
+
+  @font-face {
+    font-family: Merriweather;
+    font-weight: 700;
+    src: url('~/components/assets/fonts/Merriweather-Bold.ttf');
+  }
+}
